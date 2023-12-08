@@ -1,0 +1,123 @@
+Evaluation Set - Traced Watermarks
+
+img-name = 17_2, top-ranked-match-count = 0
+img-name = 25_1, top-ranked-match-count = 1
+ - rank=24, name=25_2, type=untraced
+img-name = 28_1, top-ranked-match-count = 0
+img-name = 32_2, top-ranked-match-count = 1
+ - rank=1, name=32_1, type=traced
+img-name = 46_1, top-ranked-match-count = 0
+img-name = 63_3, top-ranked-match-count = 0
+img-name = 95_3, top-ranked-match-count = 0
+img-name = 110_4, top-ranked-match-count = 1
+ - rank=4, name=110_3, type=untraced
+img-name = 115_3, top-ranked-match-count = 2
+ - rank=2, name=115_2, type=traced
+ - rank=6, name=115_1, type=traced
+img-name = 118_2, top-ranked-match-count = 1
+ - rank=2, name=118_1, type=traced
+img-name = 120_2, top-ranked-match-count = 3
+ - rank=1, name=120_2, type=traced
+ - rank=2, name=120_4, type=traced
+ - rank=14, name=120_3, type=traced
+img-name = 121_2, top-ranked-match-count = 1
+ - rank=5, name=121_1, type=traced
+img-name = 123_1, top-ranked-match-count = 1
+ - rank=40, name=123_3, type=traced
+img-name = 133_1, top-ranked-match-count = 0
+img-name = 140_1, top-ranked-match-count = 1
+ - rank=29, name=140_2, type=untraced
+img-name = 142_1, top-ranked-match-count = 1
+ - rank=41, name=142_2, type=traced
+img-name = 145_1, top-ranked-match-count = 0
+img-name = 149_2, top-ranked-match-count = 1
+ - rank=1, name=149_1, type=traced
+
+Evaluation Set - Untraced Watermarks
+
+img-name = 2_1, top-ranked-match-count = 0
+img-name = 3_3, top-ranked-match-count = 0
+img-name = 7_1, top-ranked-match-count = 0
+img-name = 10_4, top-ranked-match-count = 0
+img-name = 11_3, top-ranked-match-count = 1
+ - rank=25, name=11_1, type=untraced
+img-name = 11_5, top-ranked-match-count = 3
+ - rank=2, name=11_2, type=traced
+ - rank=25, name=11_4, type=untraced
+ - rank=31, name=11_1, type=untraced
+img-name = 12_1, top-ranked-match-count = 0
+img-name = 19_2, top-ranked-match-count = 1
+ - rank=46, name=19_3, type=traced
+img-name = 22_2, top-ranked-match-count = 2
+ - rank=24, name=22_3, type=untraced
+ - rank=38, name=22_1, type=traced
+img-name = 24_2, top-ranked-match-count = 0
+img-name = 29_3, top-ranked-match-count = 0
+img-name = 30_2, top-ranked-match-count = 0
+img-name = 40_4, top-ranked-match-count = 1
+ - rank=17, name=40_5, type=untraced
+img-name = 44_3, top-ranked-match-count = 1
+ - rank=23, name=44_2, type=traced
+img-name = 47_1, top-ranked-match-count = 0
+img-name = 47_3, top-ranked-match-count = 0
+img-name = 49_1, top-ranked-match-count = 0
+img-name = 49_4, top-ranked-match-count = 0
+img-name = 51_1, top-ranked-match-count = 1
+ - rank=25, name=51_5, type=traced
+img-name = 54_4, top-ranked-match-count = 0
+img-name = 55_1, top-ranked-match-count = 0
+img-name = 55_3, top-ranked-match-count = 0
+img-name = 58_3, top-ranked-match-count = 0
+img-name = 58_4, top-ranked-match-count = 0
+img-name = 62_1, top-ranked-match-count = 1
+ - rank=12, name=62_3, type=traced
+img-name = 64_1, top-ranked-match-count = 0
+img-name = 65_2, top-ranked-match-count = 0
+img-name = 66_2, top-ranked-match-count = 0
+img-name = 66_3, top-ranked-match-count = 1
+ - rank=34, name=66_1, type=traced
+img-name = 67_2, top-ranked-match-count = 1
+ - rank=48, name=67_1, type=untraced
+img-name = 68_2, top-ranked-match-count = 1
+ - rank=45, name=68_1, type=untraced
+img-name = 72_4, top-ranked-match-count = 2
+ - rank=11, name=72_2, type=untraced
+ - rank=14, name=72_1, type=untraced
+img-name = 73_1, top-ranked-match-count = 1
+ - rank=24, name=73_4, type=traced
+img-name = 73_5, top-ranked-match-count = 1
+ - rank=13, name=73_4, type=traced
+img-name = 76_2, top-ranked-match-count = 1
+ - rank=16, name=76_4, type=traced
+img-name = 80_1, top-ranked-match-count = 0
+img-name = 83_2, top-ranked-match-count = 0
+img-name = 83_4, top-ranked-match-count = 1
+ - rank=33, name=83_1, type=untraced
+img-name = 86_2, top-ranked-match-count = 0
+img-name = 96_1, top-ranked-match-count = 0
+img-name = 96_4, top-ranked-match-count = 1
+ - rank=49, name=96_3, type=traced
+img-name = 98_2, top-ranked-match-count = 0
+img-name = 99_3, top-ranked-match-count = 1
+ - rank=38, name=99_4, type=traced
+img-name = 100_2, top-ranked-match-count = 2
+ - rank=21, name=100_1, type=traced
+ - rank=24, name=100_3, type=untraced
+img-name = 102_2, top-ranked-match-count = 1
+ - rank=29, name=102_1, type=traced
+img-name = 106_3, top-ranked-match-count = 0
+img-name = 106_4, top-ranked-match-count = 1
+ - rank=45, name=106_3, type=untraced
+img-name = 126_2, top-ranked-match-count = 0
+img-name = 127_2, top-ranked-match-count = 0
+img-name = 132_2, top-ranked-match-count = 1
+ - rank=11, name=132_1, type=traced
+img-name = 134_2, top-ranked-match-count = 2
+ - rank=5, name=134_1, type=traced
+ - rank=14, name=134_3, type=untraced
+img-name = 138_1, top-ranked-match-count = 0
+img-name = 141_2, top-ranked-match-count = 0
+img-name = 143_2, top-ranked-match-count = 0
+img-name = 143_3, top-ranked-match-count = 0
+img-name = 144_3, top-ranked-match-count = 0
+img-name = 145_2, top-ranked-match-count = 0

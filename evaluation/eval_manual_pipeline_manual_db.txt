@@ -1,0 +1,149 @@
+Evaluation Set - Traced Watermarks
+
+img-name = 17_2.png, top-ranked-match-count = 1
+ - rank=50, name=17_1, type=untraced
+img-name = 25_1, top-ranked-match-count = 0
+img-name = 28_1, top-ranked-match-count = 1
+ - rank=48, name=28_4, type=untraced
+img-name = 32_2, top-ranked-match-count = 1
+ - rank=1, name=32_1, type=traced
+img-name = 46_1, top-ranked-match-count = 1
+ - rank=39, name=46_2, type=untraced
+img-name = 63_3, top-ranked-match-count = 1
+ - rank=1, name=63_2, type=untraced
+img-name = 95_3, top-ranked-match-count = 0
+img-name = 110_4, top-ranked-match-count = 1
+ - rank=4, name=110_2, type=untraced
+img-name = 115_3, top-ranked-match-count = 2
+ - rank=2, name=115_2, type=traced
+ - rank=3, name=115_1, type=traced
+img-name = 118_2, top-ranked-match-count = 1
+ - rank=1, name=118_1, type=traced
+img-name = 120_2, top-ranked-match-count = 3
+ - rank=1, name=120_1, type=traced
+ - rank=3, name=120_4, type=traced
+ - rank=16, name=120_3, type=traced
+img-name = 121_2, top-ranked-match-count = 1
+ - rank=33, name=121_3, type=traced
+img-name = 123_1, top-ranked-match-count = 2
+ - rank=1, name=123_3, type=traced
+ - rank=7, name=123_2, type=traced
+img-name = 133_1, top-ranked-match-count = 0
+img-name = 140_1, top-ranked-match-count = 1
+ - rank=1, name=140_3, type=untraced
+img-name = 142_1, top-ranked-match-count = 1
+ - rank=43, name=142_3, type=untraced
+img-name = 145_1, top-ranked-match-count = 0
+img-name = 149_2, top-ranked-match-count = 1
+ - rank=1, name=149_1, type=traced
+
+Evaluation Set - Untraced Watermarks
+
+img-name = 2_1.jpg, top-ranked-match-count = 0
+img-name = 3_3.jpg, top-ranked-match-count = 0
+img-name = 7_1.jpg, top-ranked-match-count = 0
+img-name = 10_4.jpg, top-ranked-match-count = 1
+  - rank=3, name=10_1.png, type=untraced
+img-name = 11_3.png, top-ranked-match-count = 2
+  - rank=1, name=11_2.png, type=traced
+  - rank=36, name=11_1.png, type=untraced
+img-name = 11_5.png, top-ranked-match-count = 3
+  - rank=11, name=11_4.png, type=untraced
+  - rank=24, name=11_2.png, type=traced
+  - rank=27, name=11_1.png, type=untraced
+img-name = 12_1.png, top-ranked-match-count = 0
+img-name = 19_2.png, top-ranked-match-count = 0
+img-name = 22_2.png, top-ranked-match-count = 0
+img-name = 24_4.png, top-ranked-match-count = 0
+img-name = 29_3.png, top-ranked-match-count = 1
+  - rank=20, name=29_2.jpg, type=untraced
+img-name = 30_2.png, top-ranked-match-count = 3
+  - rank=1, name=30_1.jpg, type=untraced
+  - rank=3, name=30_3.jpg, type=traced
+  - rank=7, name=30_4.jpg, type=untraced
+img-name = 40_4.png, top-ranked-match-count = 2
+  - rank=26, name=40_2.png, type=untraced
+  - rank=31, name=40_5.png, type=untraced
+img-name = 44_3.png, top-ranked-match-count = 2
+  - rank=15, name=44_1.jpg, type=untraced
+  - rank=21, name=44_2.jpg, type=untraced
+img-name = 47_1.png, top-ranked-match-count = 0
+img-name = 47_3.png, top-ranked-match-count = 0
+img-name = 49_1.png, top-ranked-match-count = 0
+img-name = 49_4.png, top-ranked-match-count = 0
+img-name = 51_1.png, top-ranked-match-count = 0
+img-name = 54_4.png, top-ranked-match-count = 0
+img-name = 55_1.png, top-ranked-match-count = 1
+  - rank=7, name=55_4.png, type=traced
+img-name = 55_3.png, top-ranked-match-count = 0
+img-name = 58_3.png, top-ranked-match-count = 2
+  - rank=2, name=58_2.png, type=untraced
+  - rank=8, name=58_1.jpg, type=untraced
+img-name = 58_4.png, top-ranked-match-count = 2
+  - rank=1, name=58_2.png, type=untraced
+  - rank=4, name=58_1.jpg, type=untraced
+img-name = 62_1.png, top-ranked-match-count = 1
+  - rank=48, name=62_2.jpg, type=untraced
+img-name = 64_1.jpg, top-ranked-match-count = 0
+img-name = 65_2.jpg, top-ranked-match-count = 2
+  - rank=3, name=65_1.png, type=untraced
+  - rank=13, name=65_4.png, type=untraced
+img-name = 66_2.png, top-ranked-match-count = 0
+img-name = 66_3.jpg, top-ranked-match-count = 0
+img-name = 67_2.jpg, top-ranked-match-count = 0
+img-name = 68_2.jpg, top-ranked-match-count = 2
+  - rank=5, name=68_4.jpg, type=untraced
+  - rank=9, name=68_1.jpg, type=untraced
+img-name = 72_4.png, top-ranked-match-count = 2
+  - rank=10, name=72_3.jpg, type=untraced
+  - rank=18, name=72_2.jpg, type=untraced
+img-name = 73_1.png, top-ranked-match-count = 3
+  - rank=8, name=73_4.png, type=traced
+  - rank=13, name=73_3.jpg, type=untraced
+  - rank=42, name=73_2.jpg, type=untraced
+img-name = 73_5.png, top-ranked-match-count = 2
+  - rank=15, name=73_4.png, type=traced
+  - rank=26, name=73_3.jpg, type=untraced
+img-name = 76_2.jpg, top-ranked-match-count = 2
+  - rank=6, name=76_4.png, type=traced
+  - rank=9, name=76_3.jpg, type=traced
+img-name = 80_1.jpg, top-ranked-match-count = 1
+ - rank=9, name=80_3.jpg, type=untraced
+img-name = 83_2.jpg, top-ranked-match-count = 2
+ - rank=1, name=83_1.png, type=untraced
+ - rank=12, name=83_3.png, type=untraced
+img-name = 83_4.png, top-ranked-match-count = 0
+img-name = 86_2.jpg, top-ranked-match-count = 0
+img-name = 96_1.jpg, top-ranked-match-count = 2
+ - rank=1, name=96_2.png, type=untraced
+ - rank=45, name=96_3.png, type=traced
+img-name = 96_4.jpg, top-ranked-match-count = 1
+ - rank=6, name=96_3.png, type=traced
+img-name = 98_2.jpg, top-ranked-match-count = 0
+img-name = 99_3.jpg, top-ranked-match-count = 0
+img-name = 100_2.jpg, top-ranked-match-count = 3
+ - rank=8, name=100_4.png, type=untraced
+ - rank=21, name=100_3.png, type=untraced
+ - rank=33, name=100_1.png, type=traced
+img-name = 102_2.jpg, top-ranked-match-count = 0
+img-name = 106_3.jpg, top-ranked-match-count = 1
+ - rank=15, name=106_1.jpg, type=untraced
+img-name = 106_4.png, top-ranked-match-count = 1
+ - rank=1, name=106_1.jpg, type=untraced
+img-name = 126_2.png, top-ranked-match-count = 2
+ - rank=5, name=126_3.png, type=untraced
+ - rank=13, name=126_1.png, type=traced
+img-name = 127_2.png, top-ranked-match-count = 0
+img-name = 132_2.png, top-ranked-match-count = 1
+ - rank=44, name=132_1.png, type=traced
+img-name = 134_2.png, top-ranked-match-count = 1
+ - rank=4, name=134_3.png, type=untraced
+img-name = 138_1.png, top-ranked-match-count = 0
+img-name = 141_2.png, top-ranked-match-count = 2
+ - rank=1, name=141_3.png, type=untraced
+ - rank=31, name=141_1.png, type=traced
+img-name = 143_2.png, top-ranked-match-count = 1
+ - rank=10, name=143_1.png, type=traced
+img-name = 143_3.png, top-ranked-match-count = 0
+img-name = 144_3.jpg, top-ranked-match-count = 0
+img-name = 145_2.png, top-ranked-match-count = 0
