@@ -1,8 +1,7 @@
-# CS for the Humanities - Watermarks - Team 18B
+# CS for the Humanities - Watermarks
 
 ## Table of contents
 
-- [About](#about)
 - [Background](#background)
   - [Brief Overview of the System](#brief-overview-of-the-system)
   - [Constraints on the System](#constraints-on-the-system)
@@ -27,17 +26,6 @@
 - [Explanation of File Structure](#explanation-of-file-structure)
 - [References](#references)
 
-## About
-
-This project was done for the course Software Project CSE2000 at TU Delft by:
-
-- Anna Lantink
-- Vladimir Petkov
-- Sydney Kho
-- Diana-Maria Banță
-- Alexandru-Remus Marin
-
-The aim of this project is to create a system for analyzing paper watermarks and matching them to other similar watermarks.
 
 ## Background
 
