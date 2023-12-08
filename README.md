@@ -18,11 +18,6 @@
 - [System Evaluation](#system-evaluation)
   - [Evaluation Details File](#evaluation-details-file)
 - [Testing](#testing)
-- [GitLab Setup](#gitlab-setup)
-  - [GitLab Wiki](#gitlab-wiki)
-  - [Issues](#issues)
-  - [Merge Requests](#merge-requests)
-  - [GitLab LFS](#gitlab-lfs)
 - [Explanation of File Structure](#explanation-of-file-structure)
 - [References](#references)
 
@@ -91,9 +86,11 @@ Note that currently this system only runs on a development server, since deploym
 
 ## Building the Database
 
+IF YOU WANT TO TEST THE APPLICATION MESSAGE ME AND I'LL GIVE YOU A SET OF IMAGES.
+
 Although any database can be provided to the system, it is expected that the database is formatted in a certain way. For this reason, it can be very useful to build the database through the methods provided by this system. There are two ways of doing this, one is automatic and the other is manual. As can be expected the automatic method is far faster, but is also less accurate when it comes to harmonizing watermarks. On the other hand, the manual system makes use of user input to make the harmonization process as accurate as possible, but thereby also takes much longer.
 
-It is important to note that when building a database the data is appended to the database with the specified name if it already exists. However, if the file with the specified name does not exist, it creates a new file.
+It is important to note that when building a database the data is appended to the database with the specified name if it already exists. However, if the file with the specified name does not exist, it creates a new file. 
 
 ### Building the Database Automatically
 
@@ -177,41 +174,6 @@ Note that the front end tests (and only the front end tests) are flaky (although
 ```shell
 python -m pytest --ignore=testing/front_end_testing
 ```
-
-## GitLab Setup
-
-Below the GitLab setup for this project is described, including the GitLab wiki, the issues, and GitLab LFS.
-
-### GitLab Wiki
-
-Much of the documentation of this project is in the GitLab wiki, including the code of conduct, the research documents, the sprint retrospectives, agendas, and meeting notes.
-
-- The code of conduct outlines expectations for how we are to work as a team, this is primarily a reference for the teammembers themselves.
-- The research documents include notes on several research papers for different sections of the pipeline. These have been included for personal reference, but also in case any future developers may want to reference techniques that have been used, or that could be used. These research papers can be relatively extensive.
-- The sprint retrospectives break down the work that each member has done in each sprint of this project. They also debrief the sprint, and discuss the goal of the sprint, strong points of the sprint, problems that have been run into, and future adjustments.
-- The agendas and meeting notes are fairly straightforward, and include relevant notes taken during various meetings throughout the course of this project.
-
-### Issues
-
-GitLab issues break down the various parts of this project into manageable tasks, that we associate Merge Requests to. Each issue has a description of the task that is to be complete in that issue. If applicable, there is also the user story associated with the issue. There is a To Do list, which describes tasks that need to be completed. Finally there is the done criteria which describes how we know the specific task is done.
-
-Issues also have time estimates, time spent, weights, milestones, and assignees.
-
-- Time estimates and time spent metrics are used to determine how much effort might need to go into a task, and how much time has been spent on a task.
-- Weights are assigned based on their importance to the project on a scale of 1 to 10, 10 being most important.
-- Tasks that have a weight of 10 must be completed, and tasks with a weight of 1 have very low priority.
-- Milestones track which sprints a task has been assigned to. Since several milestones cannot be put to a single task, the most recent one appears on the issue.
-- Assignees are those members that have worked on an issue.
-
-Issues also have associated labels that are used to designate the various categories a task may belong to. For example, User Interface, Testing, Database, etc. There are also "TODO" and "Doing" labels that allow us to see which issues are currently being worked on and which we plan on working on soon.
-
-### Merge Requests
-
-Merge requests contain the code that is worked on. They usually relate to a specific issue. Comments on the merge requests are made by those that have not worked on the code in that merge request. There is also a milestone associated to merge requests. Merge requests also sometimes have a Checklist, that ensures that several necessary steps, such as ensuring there are no style errors, are addressed. If relevant there is also more information on details relevant to a merge request. However, the majority of documentation pertaining to a merge request will be found in its corresponding issue.
-
-### GitLab LFS
-
-LFS is used by us to store the large files of this project. Specifically, this includes the database `.pkl` file, as well as the dataset of images that we have been using. These are included in the GitLab because they are important to the running of the system, but are too large to store normally.
 
 ## Explanation of File Structure
 
