@@ -1,0 +1,59 @@
+@import "../style.css";
+
+#image {
+    width: 50%;
+}
+
+.app {
+    display: grid;
+    grid-template-areas:
+        "navbar navbar"
+        "info options";
+
+    row-gap: 10px;
+    width: 96vw;
+}
+
+.info {
+    grid-area: info;
+
+    background-color: #fffef7;
+    border: 2px solid #422800;
+    box-shadow: #422800 4px 4px 0 0;
+    border-radius: 10px;
+    width: 30vw;
+    height: fit-content;
+}
+
+.options {
+    grid-area: options;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+
+    width: 60vw;
+}
+
+.options > img {
+    max-height: 40vh;
+    max-width: 25vw;
+    cursor: pointer;
+}
+
+#original {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#original_image {
+    max-width: 75%;
+    max-height: 75%;
+}
+
+.app > div {
+    padding: 0 5% 5% 5%;
+}

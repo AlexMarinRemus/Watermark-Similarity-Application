@@ -1,0 +1,43 @@
+</html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='threshold/style.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='tu.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='loading.css') }}">
+</head>
+
+<body>
+    <div class="load" id="load_screen">
+        <span class="loader-circle"></span>
+        <span class="loader"></span>
+    </div>
+    <div class="app" id="app">
+        <div class="navbar">
+            <button class="button" id="home_button" onclick="document.location.href='input'">Home</button>
+        </div>
+        <div class="info">
+            <h1 id="threshold_header">Thresholding</h1>
+            <p>
+                Please choose the option that outlines the watermark best. You will be able to remove noise and artifacts in the next step, as well as add back missing lines. The original image is below for reference.
+            </p>
+            <div id="original">
+                <p id="caption">Original image</p>
+                <img id="original_image">
+            </div>
+        </div>
+        <div class="options">
+            <img id="image-option-0">
+            <img id="image-option-1">
+            <img id="image-option-2">
+            <img id="image-option-3">
+            <img id="image-option-4">
+            <img id="image-option-5">
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='threshold/script.js') }}"></script>
+    </body>
+
+</html>

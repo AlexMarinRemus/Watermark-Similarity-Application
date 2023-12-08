@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="{{ url_for('static', filename='tu.png') }}" />
+        <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='style.css') }}"
+        />
+        <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='output/style.css') }}"
+        />
+        <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='loading.css') }}"
+        />
+    </head>
+    <body>
+        <div class="load" id="load_screen">
+            <span class="loader-circle"></span>
+            <span class="loader"></span>
+        </div>
+        <div class="app" id="app">
+            <div class="navbar">
+                <button
+                    id="home_button"
+                    class="button"
+                    onclick="document.location.href='input'"
+                >
+                    Home
+                </button>
+            </div>
+            <div class="info">
+                <h4>Input</h4>
+                <img id="input-pic" />
+                <h4>Harmonized</h4>
+                <img id="harmonized-pic" />
+            </div>
+            <div class="output">
+                <h1 id="output_header">Similar Images</h1>
+                <div class="images" id="images"></div>
+                <button
+                    id="load_more"
+                    class="button"
+                    onclick="loadMoreImages()"
+                >
+                    Load Ten More Images
+                </button>
+            </div>
+        </div>
+    </body>
+    <script src="{{ url_for('static', filename='output/script.js') }}"></script>
+</html>

@@ -1,0 +1,41 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.proceed > button{
+    grid-area: submit;
+    background-color:  #fffef7;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: large;
+    padding: 0 12px;
+    line-height: 38px;
+    touch-action: manipulation;
+}
+
+#proceed {
+    height: 25%;
+}
+
+.check{
+    grid-area: check;
+    background-color:  #fffef7;
+    border: 2px solid #422800;
+    padding: 4% 4%;
+    margin-bottom: 20px;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: #422800 4px 4px 0 0;
+}

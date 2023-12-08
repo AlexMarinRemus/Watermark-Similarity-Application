@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+        <link rel="stylesheet" href="{{ url_for('static', filename='process_image/style.css') }}">
+        </head>
+    <body>
+        <div class ="app" style="display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        "> 
+            <div class = "card">
+                <div class="image_process">
+                    <h1>
+                        <p>Your image</p>
+                    </h1>
+                    <h2>
+                    <img id="input-image" src="{{ url_for('static', filename='input.png') }}">
+                    </h2>
+                </div>
+
+                <div class="check">
+                    <label>Is the image traced?</label>
+                        <input type="checkbox" class="checkbox" id="checkbox">
+                </div>
+
+                <div class="proceed">
+                    <button id="proceed">Proceed with processing</button> 
+                </div>
+            </div>
+        </div>
+    <script src="{{ url_for('static', filename='script_database.js') }}"></script>
+    </body>
+</html>

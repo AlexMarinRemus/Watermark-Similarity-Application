@@ -1,0 +1,36 @@
+:root {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+    background-color: #bde5ff;
+    padding: 0 2% 2% 2%;
+}
+
+.navbar {
+    grid-area: navbar;
+    padding: initial !important;
+}
+
+.button {
+    background-color: #fffef7;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: large;
+    padding: 0 12px;
+    line-height: 38px;
+    touch-action: manipulation;
+}
+
+.button:hover {
+    background-color: #fff1d1;
+}
+
+.button:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}

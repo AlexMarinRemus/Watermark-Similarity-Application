@@ -1,0 +1,98 @@
+@import "../style.css";
+
+#image {
+    width: 50%;
+}
+
+.app {
+    display: grid;
+    grid-template-areas:
+        "navbar navbar"
+        "info upload_image"
+        "options upload_image"
+        "submit submit";
+
+    row-gap: 4%;
+    column-gap: 2%;
+    width: 96vw;
+}
+
+.info {
+    grid-area: info;
+}
+
+.upload_image {
+    grid-area: upload_image;
+
+    display: flex;
+    width: 40vw;
+    height: 60vh;
+
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.options {
+    grid-area: options;
+
+    display: grid;
+    grid-column: 1fr 1fr;
+    grid-row: 1fr 1fr;
+}
+
+.info,
+.options {
+    padding: 0 2% 2% 2%;
+}
+
+.submit {
+    grid-area: submit;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.options,
+.info {
+    background-color:#fffef7;
+    border-radius: 10px;
+    border: 2px solid #422800;
+    box-shadow: #422800 4px 4px 0 0;
+}
+
+.upload_image_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 10px;
+    border: 2px dashed #555;
+    color: #422800;
+    cursor: pointer;
+}
+
+.upload_image_container:hover {
+    background: #fffef7;
+    border-color: #422800;
+}
+
+.upload_image_container:hover .upload_image_title {
+    color: #222;
+}
+
+.upload_image_title {
+    color: #422800;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    transition: color 0.2s ease-in-out;
+}
+
+#submit_button {
+    width: 25%;
+}

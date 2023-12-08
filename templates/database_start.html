@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='build_database/style.css') }}">
+    </head>
+    <body>
+        <div class ="app">
+            <div class="navbar">
+                <button
+                    class="button"
+                    id="home_button"
+                    onclick="document.location.href='input'"
+                >
+                    Home
+                </button>
+            </div>
+            <div class="info">
+                <h1 id="title_header">Upload the database information</h1>
+                <p>
+                    Please upload your database .pkl file and choose the folder with images you want to process and add to the database.
+                </p>
+            </div>
+                <div class = "card">
+                    <form id="form" action="/process_folder" enctype="multipart/form-data" method="POST">
+                        <div class="upload_database">
+                            <label>Path to the database file 
+                                <br>
+                                <input
+                                    type="text"
+                                    id="database"
+                                    value="./database/manual_db.pkl"
+                                    name="database"
+                                />
+                            </label>
+                        </div>
+                        <div class="upload_folder">
+                            <label for="path"> Select a path for the folder of images to process</label>
+                            <br>
+                            <div class="choose_folder">
+                                <input type="file" id="path" name="path" webkitdirectory directory required>
+                                <span>Upload</span> 
+                            </div>
+                        </div>
+                        <div class="submit_button">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+        </div>
+    <!-- <script src="{{ url_for('static', filename='build_database/script.js') }}"></script> -->
+    </body>
+</html>

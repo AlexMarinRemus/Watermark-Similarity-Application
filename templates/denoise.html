@@ -1,0 +1,41 @@
+</html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='denoise/style.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='tu.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='loading.css') }}">
+</head>
+
+<body>
+    <div class="load" id="load_screen">
+        <span class="loader-circle"></span>
+        <span class="loader"></span>
+    </div>
+    <div class="app" id="app">
+        <div class="navbar">
+            <button class="button" id="home_button" onclick="document.location.href='input'">Home</button>
+        </div>
+        <div class="info">
+            <h1 id="denoise_header">Denoising</h1>
+            <p>
+                Please choose the option that removes the lines best while keeping the watermark lines clear. The original image is shown below for reference.
+            </p>
+            <div id="original">
+                <p id="caption">Original image</p>
+                <img id="original_image">
+            </div>
+        </div>
+        <div class="options">
+            <img id="image-option-0">
+            <img id="image-option-1">
+            <img id="image-option-2">
+            <img id="image-option-3">
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='denoise/script.js') }}"></script>
+</body>
+
+</html>

@@ -1,0 +1,197 @@
+.app {
+    display: grid;
+    grid-template-areas:
+        "navbar navbar"
+        "info upload_database"
+        "info upload_folder"
+        "submit submit";
+
+    row-gap: 4%;
+    column-gap: 2%;
+    width: 96vw;
+}
+
+.navbar{
+    grid-area: navbar;
+}
+
+.info {
+    grid-area: info;
+    height: 40vh;
+    background-color: #fffef7;
+    border: 2px solid #422800;
+    padding: 4% 4%;
+    border-radius: 10px;
+    box-shadow: #422800 4px 4px 0 0;
+}
+
+.upload_database{
+    grid-area: upload_database;
+    background-color: #fffef7;
+    border: 2px solid #422800;
+    padding: 4% 4%;
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: #422800 4px 4px 0 0;
+}
+
+.upload_folder{
+    grid-area: upload_folder;
+    background-color: #fffef7;
+    border: 2px solid #422800;
+    padding: 4% 4%;
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: #422800 4px 4px 0 0;
+}
+
+.submit_button > input{
+    grid-area: submit;
+    background-color: #fffef7;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: large;
+    padding: 0 12px;
+    line-height: 38px;
+    touch-action: manipulation;
+}
+
+/* #path {
+    text-decoration: none;
+    grid-area: submit;
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: large;
+    padding: 0 12px;
+    line-height: 38px;
+    touch-action: manipulation;
+
+} */
+.choose_folder {
+	background: #fffef7;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 30px;
+	color: #422800;
+	font-weight: 600;
+    font-size: 16px;
+	margin: 1.25em auto;/*20px/16px 0*/
+	overflow: hidden;
+	padding: 0 12px;
+    line-height: 38px;
+	position: relative;
+	text-align: center;
+	width: 50%;
+    cursor: pointer;
+    box-shadow: #422800 4px 4px 0 0;
+    border: 2px solid #422800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.choose_folder:hover, .choose_folder:active, .choose_folder:focus {
+  background: #fff1d1;
+  cursor: pointer;
+}
+.choose_folder input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    width: 148px;
+    height: 46px;
+   cursor: pointer;
+}
+
+.choose_folder input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    width: 148px;
+    height: 46px;
+    cursor: pointer;
+  }
+
+.imageUpload:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+  }
+
+
+.upload_pickle_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 10px;
+    border: 2px dashed #555;
+    color: #444;
+    cursor: pointer;
+}
+
+.upload_pickle_container:hover {
+    background: #fff1d1;
+    border-color: #111;
+}
+
+.upload_pickle_container:hover .upload_pickle_title {
+    color: #222;
+}
+
+.upload_pickle_title {
+    color: #444;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    transition: color 0.2s ease-in-out;
+}
+
+.card {
+    height: 75vh;
+}
+
+#form {
+    height: 75vh;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#submit_button {
+    width: 25%;
+}

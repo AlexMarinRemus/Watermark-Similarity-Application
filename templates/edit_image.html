@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='style.css') }}"
+        />
+        <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='edit_image/style.css') }}"
+        />
+        <link rel="icon" href="{{ url_for('static', filename='tu.png') }}" />
+        <title>Watermark Similarity</title>
+    </head>
+    <body id="edit-image-body">
+        <div class="app">
+            <div class="navbar">
+                <button id="home_button" class="button">Home</button>
+            </div>
+            <div class="info">
+                <h1 id="image_edit_header">Edit the Harmonized Image</h1>
+                <p>
+                    This screen is used for editing the harmonized image to
+                    enhance the outline of the watermark even more. The
+                    harmonized watermark is in green, and the background is the
+                    input image. In order to add lines to the harmonized
+                    watermark that may be missing click paint and draw with your
+                    mouse. In order to remove lines, such as noise, that appear
+                    in the harmonized watermark, click erase and draw with your
+                    mouse over the lines to be erased. The size of the
+                    paint/erase brush can be changed by moving the dot in the
+                    size bar. To undo a line, click the undo button. To restart
+                    everything, click restart. Note, restarting cannot be
+                    undone. When finished, click continue to move to the next
+                    screen.
+                </p>
+            </div>
+            <div class="submit">
+                <button id="continue_button" class="button">continue</button>
+            </div>
+            <div class="edit-image-div">
+                <div class="edit-buttons-div" id="size-input-div">
+                    <label id="edit-image-size-text">size</label>
+                    <input
+                        type="range"
+                        min="1"
+                        max="20"
+                        value="5"
+                        id="size-input"
+                    />
+                </div>
+                <div class="edit-buttons-div" id="edit-buttons-div-1">
+                    <button
+                        class="button"
+                        id="paintbrush"
+                    >
+                        paint
+                    </button>
+                    <button
+                        class="button"
+                        id="eraser"
+                    >
+                        erase
+                    </button>
+                    <button
+                        class="button"
+                        id="undo"
+                    >
+                        undo
+                    </button>
+                    <button
+                        class="button"
+                        id="clear"
+                    >
+                        restart
+                    </button>
+                </div>
+                <div id="canvas-div">
+                    <canvas id="edit-image-canvas"> </canvas>
+                </div>
+            </div>
+        </div>
+        <script src="{{ url_for('static', filename='edit_image/script.js') }}"></script>
+    </body>
+</html>

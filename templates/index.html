@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='style.css') }}"
+        />
+        <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='index/style.css') }}"
+        />
+        <link rel="icon" href="{{ url_for('static', filename='tu.png') }}" />
+        <title>Watermark Similarity</title>
+    </head>
+
+    <body>
+        <div class="app">
+            <div class="navbar">
+                <button
+                    class="button"
+                    id="home_button"
+                    onclick="document.location.href='input'"
+                >
+                    Home
+                </button>
+            </div>
+            <div class="info">
+                <h1 id="title_header">Upload your image</h1>
+                <p>
+                    Please upload your image and set the options below. You can
+                    enter the number of results you want and whether your
+                    watermark is traced.
+                </p>
+            </div>
+            <div class="upload_image">
+                <image id="image"></image>
+                <label
+                    for="upload_image"
+                    class="upload_image_container"
+                    id="upload_image_container"
+                >
+                    <span class="upload_image_title"
+                        >Drop files here, or click to upload!</span
+                    >
+                    <input
+                        type="file"
+                        accept="image/jpeg, image/png, image/jpg, image/tiff, image/bmp"
+                        id="upload_image"
+                        style="display: none"
+                        onchange="update_image()"
+                    />
+                </label>
+            </div>
+            <div class="options">
+                <h3>Options</h3>
+
+                <label
+                    >Path to the database <input
+                        type="text"
+                        id="database"
+                        value="./database/manual_db.pkl"
+                        name="database"
+                    />
+                </label>
+
+                <label for="image_number_slider">
+                    Number of results
+                    <input
+                        type="range"
+                        id="image_number_slider"
+                        min="1"
+                        max="100"
+                        value="20"
+                        onmousemove="set_number(this.value)"
+                    />
+                    <input
+                        type="number"
+                        id="image_number_value"
+                        min="1"
+                        max="100"
+                        value="20"
+                        onchange="set_slider(this.value)"
+                    />
+                </label>
+
+                <label
+                    >Is the image traced?<input
+                        type="checkbox"
+                        id="traced_checkbox"
+                        checked
+                /></label>
+            </div>
+            <div class="submit">
+                <button
+                    onclick="upload_image()"
+                    class="button"
+                    id="submit_button"
+                >
+                    Search for watermarks
+                </button>
+            </div>
+        </div>
+        <script src="{{ url_for('static', filename='index/script.js') }}"></script>
+    </body>
+</html>
